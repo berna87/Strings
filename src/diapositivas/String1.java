@@ -47,5 +47,19 @@ public class String1 {
 		}
 		
 		System.out.println(aux);
+		//metodo replace
+		System.out.println(str1.replace('o','O')); //cambia todas las o por O
+		System.out.println(str1.replace("Hola","Hello"));
+		System.out.println(str1.replaceAll("[aeiou]","*")); //se cambian todas las vocales por *
+		System.out.println(str1.replaceFirst("[aeiou]","*")); //reemplaza la primera vocal por *
+		//metodo split
+		String [] array = str1.split(" ");
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(i+") "+array[i]);
+		}
+		String [] array2 = str1.split("[aeiou]");
+		for (int i = 0; i < array2.length; i++) {
+			System.out.println(i+") "+array2[i]);
+		}
 	}
 }
