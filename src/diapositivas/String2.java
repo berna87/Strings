@@ -8,6 +8,7 @@ public class String2 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner (System.in);
 		String frase = sc.nextLine();
+		sc.close();
 		System.out.println("La frase contiene algun numero: "+frase.matches(".*[0-9]+.*"));
 		String [] fraseArray = frase.split(" ");
 		System.out.println("La frase contiene "+fraseArray.length+" palabras");
