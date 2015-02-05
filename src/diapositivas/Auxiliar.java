@@ -2,7 +2,7 @@ package diapositivas;
 
 public class Auxiliar {
 	public static boolean requisitos(String st){
-		boolean condicion=true;
+		boolean condicion=false;
 		boolean mayuscula = false;
 		boolean minuscula = false;
 		boolean caracterNoAlf = false;
