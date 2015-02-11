@@ -4,7 +4,7 @@ public class ClaveSegura {
 	private String clave;
 	/**
 	 * 
-	 * @param clave Strin que utilizaremos para trabajar con el
+	 * @param clave Inicializa el String con el que vamos a trabajar
 	 */
 	public ClaveSegura(String clave) {
 		this.clave = clave;
